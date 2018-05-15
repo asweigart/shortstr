@@ -1,4 +1,6 @@
-# shortstr
+========
+shortstr
+========
 
 ShortStr is a Python module to generate unambiguous, homoglyph-less "shortstrings" for URL shortners and similar services.
 
@@ -8,7 +10,8 @@ Websites such as Pastebin have unique alphanumeric strings IDs, like https://pas
 
 The shortstr module generates these shortstrings without the l, I, o, O, 0, and 1 homoglyphs. It also has checksum and can check for repeat shortstrings to ensure you only produce unique shortstrings, and uses `os.urandom()` to produce truly random shortstrings, not pseudorandom shortstrings.
 
-## Examples
+Examples
+========
 
     >>> import shortstr
     >>> shortstr.generate()
@@ -31,4 +34,3 @@ The shortstr module generates these shortstrings without the l, I, o, O, 0, and 
     True
     >>> shortstr.isValid('invalid shortstring')
     False
-
