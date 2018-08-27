@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 
 setup(
-    name='PyBresenham',
+    name='ShortStr',
     version=__import__('shortstr').__version__,
     url='https://github.com/asweigart/shortstr',
     author='Al Sweigart',
