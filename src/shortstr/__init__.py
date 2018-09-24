@@ -12,7 +12,7 @@ import random
 import sys
 import zlib
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 # Doesn't contain homoglyphs: l, I, o, O, 0, 1
 GLYPHS = 'abcdefghijkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789'

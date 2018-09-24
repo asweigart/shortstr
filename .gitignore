@@ -3,4 +3,6 @@ _build
 *.pyc
 __pycache__
 shortstr.egg-info
-htmlconv
+.coverage
+.pytest_cache/
+htmlcov/
