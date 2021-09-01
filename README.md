@@ -32,3 +32,8 @@ The shortstr module generates these shortstrings without the l, I, o, O, 0, and 
     >>> shortstr.isValid('invalid shortstring')
     False
 
+
+Support
+-------
+
+If you find this project helpful and would like to support its development, [consider donating to its creator on Patreon](https://www.patreon.com/AlSweigart).
